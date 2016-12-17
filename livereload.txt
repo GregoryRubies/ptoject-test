@@ -1,0 +1,20 @@
+Автоперезагрузка браузера.
+
+Вариант 1: LiveReload + Sublime Text 3 в Chrome?
+
+1.устанавливаете плагин LiveReload в chrome
+2. устанавливаете LiveReload в Sublime Text 3 
+3. в Sublime Text 3 заходите в Preferences > Package Settings > LiveReload > Setting - Default
+4. пишете 
+
+{ 
+"enabled_plugins": [ 
+"SimpleReloadPlugin", 
+"SimpleRefresh" 
+]
+}
+
+5. нажимаете на значок плагина в chrome он подключается к Sublime Text 3. 
+(Если у кого-то не работает Live Reload в хроме, то нажмите правой кнопкой мышки на значок расширения справа вверху, далее управление расширением.
+И в настройке данного расширения поставьте галочку "Разрешить открывать файлы по ссылкам")
+6. пользуетесь!

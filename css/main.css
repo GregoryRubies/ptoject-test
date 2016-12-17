@@ -1,0 +1,18 @@
+body {
+	background-color: #8ABC8A;
+}
+.bg-1 {
+	background-color: #64BCAA;
+}
+.bg-2 {
+	background-color: #7BBC2C;
+}
+.bg-3 {
+	background-color: #FF76F3;
+}
+.carousel-inner img {
+	width: 30%;
+	margin: 0 auto;
+
+
+}
